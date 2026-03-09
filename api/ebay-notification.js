@@ -1,7 +1,7 @@
 const crypto = require('crypto');
 
-const VERIFICATION_TOKEN = 'PASTE_YOUR_TOKEN_HERE';
-const ENDPOINT_URL = 'PASTE_YOUR_VERCEL_URL_HERE';
+const VERIFICATION_TOKEN = 'ArbitraxAI-ebay-verify-token-2024-secure-abc123';
+const ENDPOINT_URL = 'https://e-bay-notifications.vercel.app/api/ebay-notification';
 
 export default function handler(req, res) {
   if (req.method === 'GET') {
